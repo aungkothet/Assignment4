@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:background = "@color/colorSearchBg">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent">
+
+        <RelativeLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:layout_marginStart = "@dimen/margin_medium_2"
+            android:layout_marginEnd = "@dimen/margin_medium_2">
+
+            <TextView
+                android:id="@+id/explore_tv"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_alignBaseline = "@id/btn_filter"
+                android:text = "@string/explore"
+                android:textColor = "@color/colorTitleText"
+                android:layout_toStartOf="@id/btn_filter"
+                android:layout_alignParentStart="true"
+                android:textSize = "@dimen/text_regular_3x"
+                android:textStyle = "bold" />
+
+            <android.support.design.button.MaterialButton
+                android:id = "@+id/btn_filter"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_alignParentEnd = "true"
+                android:layout_marginTop = "@dimen/margin_medium"
+                android:backgroundTint = "@android:color/white"
+                android:text = "@string/filters"
+                android:textAllCaps = "false"
+                android:textColor = "@android:color/black"
+                app:cornerRadius = "10dp"
+                app:icon = "@drawable/ic_filter"
+                app:iconTint = "@color/colorPrimary"
+                app:rippleColor = "@color/colorPrimary" />
+
+            <RelativeLayout
+                android:id = "@+id/location_title"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:layout_below = "@id/btn_filter"
+                android:layout_marginTop = "@dimen/margin_medium_2">
+
+                <RelativeLayout
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:layout_marginTop = "@dimen/margin_card_medium_2"
+                    android:background = "@drawable/border"
+                    android:padding = "@dimen/margin_medium_2">
+
+                    <TextView
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:layout_alignParentStart = "true"
+                        android:layout_centerInParent = "true"
+                        android:text = "@string/dhaka"
+                        android:layout_toStartOf="@id/img_location"
+                        android:textSize = "@dimen/text_regular_2x" />
+
+                    <ImageView
+                        android:id="@+id/img_location"
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:layout_alignParentEnd = "true"
+                        android:layout_centerInParent = "true"
+                        android:src = "@drawable/ic_location_bg" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:layout_alignParentTop = "true"
+                    android:layout_marginStart = "@dimen/margin_medium_2"
+                    android:background = "@android:color/white"
+                    android:text = "@string/location"
+                    android:textSize = "@dimen/text_regular_2x" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id = "@+id/check_in_out"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:layout_below = "@id/location_title"
+                android:layout_marginTop = "@dimen/margin_card_medium_2"
+                android:orientation = "horizontal"
+                android:weightSum = "2"
+                android:baselineAligned = "false">
+
+                <RelativeLayout
+                    android:layout_width = "0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_marginTop = "@dimen/margin_card_medium_2"
+                    android:layout_marginEnd = "4dp"
+                    android:layout_weight = "1">
+
+                    <RelativeLayout
+                        android:layout_width = "match_parent"
+                        android:layout_height = "wrap_content"
+                        android:layout_marginTop = "@dimen/margin_card_medium_2"
+                        android:background = "@drawable/border"
+                        android:padding = "@dimen/margin_medium_2">
+
+                        <TextView
+                            android:layout_width = "wrap_content"
+                            android:layout_height = "wrap_content"
+                            android:layout_alignParentStart = "true"
+                            android:layout_centerInParent = "true"
+                            android:text = "@string/_07_mar_2019"
+                            android:textColor = "@color/colorTitleText"
+                            android:textSize = "@dimen/text_regular_2x" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:layout_alignParentTop = "true"
+                        android:layout_marginStart = "@dimen/margin_medium_2"
+                        android:background = "@android:color/white"
+                        android:text = "@string/checkin"
+                        android:textSize = "@dimen/text_regular_2x" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width = "0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_marginStart = "4dp"
+                    android:layout_marginTop = "@dimen/margin_card_medium_2"
+                    android:layout_weight = "1">
+
+                    <RelativeLayout
+                        android:layout_width = "match_parent"
+                        android:layout_height = "wrap_content"
+                        android:layout_marginTop = "@dimen/margin_card_medium_2"
+                        android:background = "@drawable/border"
+                        android:padding = "@dimen/margin_medium_2">
+
+                        <TextView
+                            android:layout_width = "wrap_content"
+                            android:layout_height = "wrap_content"
+                            android:layout_alignParentStart = "true"
+                            android:layout_centerInParent = "true"
+                            android:text = "@string/_12_mar_2019"
+                            android:textColor = "@color/colorTitleText"
+                            android:textSize = "@dimen/text_regular_2x" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:layout_alignParentTop = "true"
+                        android:layout_marginStart = "@dimen/margin_medium_2"
+                        android:background = "@android:color/white"
+                        android:text = "@string/checkout"
+                        android:textSize = "@dimen/text_regular_2x" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id = "@+id/count_rooms"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:layout_below = "@id/check_in_out"
+                android:layout_marginTop = "@dimen/margin_card_medium_2"
+                android:orientation = "horizontal"
+                android:weightSum = "2"
+                android:baselineAligned = "false">
+
+                <RelativeLayout
+                    android:layout_width = "0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_marginTop = "@dimen/margin_card_medium_2"
+                    android:layout_marginEnd = "4dp"
+                    android:layout_weight = "1">
+
+                    <RelativeLayout
+                        android:layout_width = "match_parent"
+                        android:layout_height = "wrap_content"
+                        android:layout_marginTop = "@dimen/margin_card_medium_2"
+                        android:background = "@drawable/border"
+                        android:padding = "@dimen/margin_medium_2">
+
+                        <TextView
+                            android:layout_width = "wrap_content"
+                            android:layout_height = "wrap_content"
+                            android:layout_alignParentStart = "true"
+                            android:layout_centerInParent = "true"
+                            android:text = "@string/_2_adults"
+                            android:textColor = "@color/colorTitleText"
+                            android:textSize = "@dimen/text_regular_2x" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:layout_alignParentTop = "true"
+                        android:layout_marginStart = "@dimen/margin_medium_2"
+                        android:background = "@android:color/white"
+                        android:text = "@string/count"
+                        android:textSize = "@dimen/text_regular_2x" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width = "0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_marginStart = "4dp"
+                    android:layout_marginTop = "@dimen/margin_card_medium_2"
+                    android:layout_weight = "1">
+
+                    <RelativeLayout
+                        android:layout_width = "match_parent"
+                        android:layout_height = "wrap_content"
+                        android:layout_marginTop = "@dimen/margin_card_medium_2"
+                        android:background = "@drawable/border"
+                        android:padding = "@dimen/margin_medium_2">
+
+                        <TextView
+                            android:layout_width = "wrap_content"
+                            android:layout_height = "wrap_content"
+                            android:layout_alignParentStart = "true"
+                            android:layout_centerInParent = "true"
+                            android:text = "@string/_03"
+                            android:textColor = "@color/colorTitleText"
+                            android:textSize = "@dimen/text_regular_2x" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:layout_alignParentTop = "true"
+                        android:layout_marginStart = "@dimen/margin_medium_2"
+                        android:background = "@android:color/white"
+                        android:text = "@string/room"
+                        android:textSize = "@dimen/text_regular_2x" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id = "@+id/search_buttons"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:layout_below = "@id/count_rooms"
+                android:layout_marginTop = "@dimen/margin_medium_2"
+                android:orientation = "horizontal"
+                android:weightSum = "5">
+
+                <android.support.design.button.MaterialButton
+                    android:layout_width = "0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_marginEnd = "@dimen/margin_medium"
+                    android:layout_weight = "4"
+                    android:backgroundTint = "@color/colorPrimary"
+                    android:text = "@string/search_now" />
+
+                <android.support.design.button.MaterialButton
+                    android:layout_width = "0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight = "1"
+                    android:backgroundTint = "@color/colorPrimary"
+                    app:icon = "@drawable/ic_map"
+                    app:iconGravity = "textStart"
+                    app:iconPadding = "0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id = "@+id/layout_top_searches"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:layout_below = "@id/search_buttons"
+                android:layout_marginTop = "@dimen/margin_medium"
+                android:orientation = "vertical">
+
+                <TextView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:layout_marginTop = "@dimen/margin_medium"
+                    android:text = "@string/txt_top_searches"
+                    android:textAllCaps = "true"
+                    android:textColor = "@color/colorTitleText" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id = "@+id/rv_top_searches"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:layout_marginTop = "@dimen/margin_medium"
+                    android:orientation = "horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id = "@+id/layout_recent_searches"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:layout_below = "@id/layout_top_searches"
+                android:layout_marginTop = "@dimen/margin_medium"
+                android:layout_marginBottom = "@dimen/margin_medium"
+                android:orientation = "vertical">
+
+                <TextView
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:layout_marginTop = "@dimen/margin_medium"
+                    android:text = "@string/txt_recent_searches"
+                    android:textAllCaps = "true"
+                    android:textColor = "@color/colorTitleText" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id = "@+id/rv_recent_searches"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:layout_marginTop = "@dimen/margin_medium"
+                    android:orientation = "horizontal" />
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <include layout = "@layout/filter_bottom_sheet" />
+</android.support.design.widget.CoordinatorLayout>

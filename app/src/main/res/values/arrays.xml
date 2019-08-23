@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="townships">
+        <item>Ahlone</item>
+        <item>Latha</item>
+        <item>Lanmadaw</item>
+        <item>Sanchaung</item>
+        <item>North Dagon</item>
+        <item>Tharkayta</item>
+        <item>North Okklarpa</item>
+        <item>Dagon</item>
+        <item>Hlaing</item>
+        <item>Insein</item>
+    </string-array>
+
+    <string-array name = "pricelist">
+        <item>Price \t\t $ </item>
+        <item>Price \t\t $>$$ </item>
+        <item>Price \t\t $$>$$$ </item>
+        <item>Price \t\t $$$ </item>
+    </string-array>
+</resources>

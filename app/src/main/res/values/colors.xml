@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name = "colorPrimary">#9013fe</color>
+    <color name = "colorPrimaryDark">#ffffff</color>
+    <color name = "colorAccent">#ff55a2</color>
+    <color name = "colorText">#a0a1a5</color>
+    <color name = "colorTitleText">#333a40</color>
+    <color name = "colorSearchBg">#f9f9f9</color>
+    <color name = "colorCardBg">#fbfbfb</color>
+    <color name = "colorChipBg">#EEEEEE</color>
+    <color name = "colorActiveLine">#ca9bf4</color>
+    <color name = "colorUnactive">#ebe8f0</color>
+</resources>

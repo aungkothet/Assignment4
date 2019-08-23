@@ -1,0 +1,48 @@
+<resources>
+    <string name = "app_name">Assignment4</string>
+    <string name = "title_home">Home</string>
+    <string name = "title_dashboard">Dashboard</string>
+    <string name = "title_notifications">Notifications</string>
+    <string name = "title_search">Search</string>
+    <string name = "title_calendar">Calendar</string>
+    <string name = "title_bookmark">Save</string>
+
+    <string name = "text_services">Free wifi . Swimming</string>
+    <string name = "text_location">Airport Road, Dhaka</string>
+    <string name = "text_discount">GET 50% OFF</string>
+    <string name = "text_hotel_name">The Westeen</string>
+    <string name = "text_rating">4.5(31 ratings)</string>
+    <string name = "text_pricing">$89/day</string>
+    <string name = "explore">Explore</string>
+    <string name = "filters">Filters</string>
+    <string name = "location">&#160;&#160;&#160;Location&#160;&#160;&#160;</string>
+    <string name = "checkout">&#160;&#160;&#160;Check Out&#160;&#160;&#160;</string>
+    <string name = "checkin">&#160;&#160;&#160;Check In&#160;&#160;&#160;</string>
+    <string name = "count">&#160;&#160;&#160;Cout&#160;&#160;&#160;</string>
+    <string name = "room">&#160;&#160;&#160;Room&#160;&#160;&#160;</string>
+    <string name = "txt_top_searches">Top Searches</string>
+    <string name = "txt_recent_searches">Recent Searches</string>
+    <string name = "txt_sort_by">Sort by</string>
+    <string name = "txt_rating">Rating</string>
+    <string name = "txt_price_range">Price Range</string>
+    <string name = "none">None</string>
+    <string name = "_1">1</string>
+    <string name = "_2">2</string>
+    <string name = "_3">3</string>
+    <string name = "_4">4</string>
+    <string name = "_5">5</string>
+    <string name = "_90_350">$90 - $350</string>
+    <string name = "average_250">Average - $250</string>
+    <string name = "filter_now">Filter Now</string>
+    <string name = "cancel">Cancel</string>
+    <string name = "filter">Filter</string>
+    <string name = "reset">Reset</string>
+    <string name = "_12_mar_2019">12 Mar, 2019</string>
+    <string name = "_07_mar_2019">07 Mar, 2019</string>
+    <string name = "_2_adults">2 Adults</string>
+    <string name = "_03">03</string>
+    <string name = "dhaka">Dhaka</string>
+    <string name = "search_now">Search Now</string>
+
+
+</resources>
